@@ -35,3 +35,4 @@ Fotos para la web
 -----------------
   Lightroom > Exportar: JPEG, calidad 80, sRGB, lado largo 2400 px, metadatos solo
   "Copyright e informacion de contacto" (asi no se publica la ubicacion GPS).
+
