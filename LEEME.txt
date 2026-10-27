@@ -1,0 +1,37 @@
+ASTROZABAL-WEB
+==============
+
+Web de ASTROZABAL (fugaces, del plan a la foto, oportunidades del mes y novedades).
+Son paginas HTML normales: no hay que compilar nada. Vercel las publica tal cual.
+
+Carpeta en el PC: F:\ASTROZABAL-WEB  (fuera de F:\ASTROZABAL, para que no se mezcle con la app)
+
+Que hay dentro
+--------------
+  index.html                 portada
+  fugaces\                   trucos de un minuto (una pagina por fugaz)
+  plan-a-la-foto\            entradas con la planificacion y la foto final
+  oportunidades\             fechas del mes
+  novedades\                 historial de versiones
+  css\estilo.css             el aspecto de toda la web
+  img\                       fotos y capturas (JPG, lado largo 2400 px como mucho)
+  plantillas\                modelos para nuevas entradas (no se publican)
+  vercel.json                ajustes de Vercel (direcciones sin .html)
+  publicar.bat               sube los cambios (doble clic)
+  primera-vez.bat            solo la primera vez
+
+Para publicar un cambio
+-----------------------
+  Doble clic en publicar.bat. En un minuto esta en https://astrozabal-web.vercel.app
+
+Para anadir una entrada
+-----------------------
+  Lo mas comodo: pidele a Claude la entrada nueva (texto, fotos y capturas) y te devuelve
+  los archivos ya hechos, incluida la portada y la lista actualizadas. Luego publicar.bat.
+  A mano: copia la plantilla, cambia textos e imagenes, y anade el enlace en la lista de
+  su seccion (fugaces\index.html o plan-a-la-foto\index.html) y, si quieres, en index.html.
+
+Fotos para la web
+-----------------
+  Lightroom > Exportar: JPEG, calidad 80, sRGB, lado largo 2400 px, metadatos solo
+  "Copyright e informacion de contacto" (asi no se publica la ubicacion GPS).
