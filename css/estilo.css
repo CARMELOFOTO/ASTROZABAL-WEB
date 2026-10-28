@@ -146,3 +146,7 @@ ol.pasos b { font-family: var(--f-display); font-weight: 700; }
   .ficha { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .ficha dd { margin-bottom: 8px; }
 }
+
+/* Vídeos de las fugaces (sin sonido, en bucle, con subtítulos) */
+.marco video { display: block; width: 100%; height: auto; background: #000; }
+video::cue { font: 600 1rem/1.35 "Segoe UI", system-ui, sans-serif; color: #fff; background: rgba(10, 15, 30, .82); }
